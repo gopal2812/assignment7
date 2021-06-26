@@ -15,20 +15,11 @@ ASSIGNMENT
 Solution:
 1] docstring is a closure which counts the length of docstring in the input function
 
-def check_doc_string_len(fn):
-    """ This a closure which counts the length of the docstring"""
-    free_var_local_count = 50
-    def check_doc_string_len_inner():
-        ''' This function counts the characters in 'fn':function and prints relavent message.
-        INPUT: fn : Function
-        OUTPUT: RELEVANT message regarding the length of docstring
-        '''
-        if not isfunction(fn):
-            raise TypeError("Inappropriate INPUT:please send in a function")
-        nonlocal free_var_local_count
-        if len(fn.__doc__) >= free_var_local_count:
-            return True
-        else:
-            return False
-    return check_doc_string_len_inner
+2] FIBONACCI numbers: The Fibonacci sequence is a series of numbers where a number is the addition of the last two numbers, starting with 0, and 1. The Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
+
+fibonacci returns a function which when called returns the next fibonacci number
+
+3]func_counter is a closure which counts the number of times a function is called and stores the count in a global dictionary.
+
+4] func_counter_dict is a closure which counts the number of times a function is called and stores the count in a dictionary.
 
