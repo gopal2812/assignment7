@@ -12,6 +12,7 @@ ASSIGNMENT
 4. Modify above such that now we can pass in different dictionary variables to update different dictionaries (+ 6 tests)
 
 Solution:
+
 1] docstring is a closure which counts the length of docstring in the input function
 
 2] FIBONACCI numbers: The Fibonacci sequence is a series of numbers where a number is the addition of the last two numbers, starting with 0, and 1. The Fibonacci Sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55…
