@@ -1,5 +1,4 @@
 # Assignment7
-EpiAssignment
 
 TOPIC: Scopes & Closures
 
